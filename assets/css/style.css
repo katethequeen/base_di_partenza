@@ -233,7 +233,7 @@ footer a {
     padding: 3px;
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
   h2 {
     font-weight: 900;
@@ -271,7 +271,7 @@ footer a {
   }
 }
 
-/*-- v.Desktop --*/
+/*-- v.Tablet --*/
 
 @media screen and (min-width: 768px) {
   header nav ul li {
@@ -279,6 +279,9 @@ footer a {
     margin-left: 2rem;
   }
   header div p {
+    font-size: 18px;
+  }
+  p {
     font-size: 18px;
   }
   h1 {
@@ -291,5 +294,38 @@ footer a {
     margin-inline: auto;
     width: 500px;
     margin-top: 8rem;
+  }
+  aside h2 {
+    font-size: 25px;
+  }
+  footer address {
+    font-size: 18px;
+    width: 650px;
+    margin-inline: auto;
+  }
+}
+
+/*-- v.Tablet --*/
+
+@media screen and (min-width: 300px) {
+  body {
+    max-width: 95%;
+    margin-inline: auto;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  footer address {
+    font-size: 20px;
   }
 }
