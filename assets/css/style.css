@@ -240,26 +240,26 @@ footer a {
   }
   table {
     margin-inline: auto;
-    width: 700px;
+    width: 800px;
     margin-top: 8rem;
     font-weight: 900;
   }
   iframe {
-    width: 50%;
+    width: 49%;
     height: 15vh;
+    display: inline-block;
   }
   section {
-    width: 40%;
+    width: 49%;
     height: 15vh;
     border-radius: 30px;
-    position: absolute;
-    top: 93%;
-    left: 50%;
+    display: inline-block;
+    vertical-align: top;
   }
   main aside div {
-    display: inline-block;
     width: 33%;
     margin-inline: auto;
+    display: inline-block;
   }
   footer {
     height: 13vh;
@@ -305,7 +305,7 @@ footer a {
   }
 }
 
-/*-- v.Tablet --*/
+/*-- v.Smartphone --*/
 
 @media screen and (min-width: 300px) {
   body {
